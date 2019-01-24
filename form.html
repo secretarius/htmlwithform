@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Sample</title>
+    <style>
+        .catus {
+          background-color: purple;
+          color: white;
+          margin: 20px;
+          padding: 20px;
+        } 
+    </style>
+</head>
+<body>
+    <a href="index.html">На головну</a>
+    <h1 class="catus">
+        Наші кошенята</h1>
+    <section class="catus">
+        <img src="img/manycat.jpg" alt="catstay"></img>
+    </section>
+    <h1 class="catus">Вікторина:</h1>
+    <h2 class="catus">Якого кольору Вам подобаться кошенята?</h2>
+    <form class="catus" method="POST" action="https://formspree.io/4dtggroup@gmail.com">
+        <label for="name">Білий:</label>
+        <input type="text" id="name" 
+            placeholder="Білий" required 
+            name="user-name">
+        <br>
+        <label>
+            Email: <input type="email" placeholder="Email"  required 
+            name="user-email">
+        </label>
+        <input type="submit">
+    </form>
+    <br>
+    <form class="catus" method="POST" action="https://formspree.io/4dtggroup@gmail.com">
+        <label for="name">Чорний:</label>
+        <input type="text" id="name" 
+            placeholder="Чорний" required 
+            name="user-name">
+        <br>
+        <label>
+            Email: <input type="email" placeholder="Email"  required 
+            name="user-email">
+        </label>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
